@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9333a153-4cd8-44a5-8037-921f32d9ede3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question3/RandomNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/question1/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#484#492#0" expanded="true" />
@@ -58,26 +59,37 @@
       <file leaf-file-name="PageSelectors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageSelectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="-3">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/question3/RandomNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+              <folding>
+                <element signature="e#221#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +130,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/PageSelectors.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/question3/RandomNumber.java" />
       </list>
     </option>
   </component>
@@ -236,6 +249,14 @@
               <item name="rubianes" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubianes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="question3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubianes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubianes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCases">
+  <component name="RunManager" selected="Application.RandomNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -290,6 +311,17 @@
       <option name="MAIN_CLASS_NAME" value="Question1" />
       <module name="rubianes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RandomNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question3.RandomNumber" />
+      <module name="rubianes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="question3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -396,9 +428,11 @@
       <item itemvalue="Application.Dictionary" />
       <item itemvalue="TestNG.TestCases.testCaseQuestion2" />
       <item itemvalue="TestNG.TestCases" />
+      <item itemvalue="Application.RandomNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumber" />
         <item itemvalue="TestNG.TestCases" />
         <item itemvalue="TestNG.TestCases.testCaseQuestion2" />
         <item itemvalue="Application.Dictionary" />
@@ -420,12 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCases_testCaseQuestion2 - 2018.05.05 at 20h 03m 50s.xml">
-      <configuration name="TestCases.testCaseQuestion2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases_testCaseQuestion2 - 2018.05.05 at 20h 05m 32s.xml">
-      <configuration name="TestCases.testCaseQuestion2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestCases_testCaseQuestion2 - 2018.05.05 at 20h 06m 20s.xml">
       <configuration name="TestCases.testCaseQuestion2" configurationId="TestNG" />
     </history-entry>
@@ -450,6 +478,12 @@
     <history-entry file="TestCases_testCaseQuestion2 - 2018.05.05 at 20h 43m 33s.xml">
       <configuration name="TestCases.testCaseQuestion2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestCases_testCaseQuestion2 - 2018.05.05 at 20h 57m 01s.xml">
+      <configuration name="TestCases.testCaseQuestion2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCases - 2018.05.05 at 20h 58m 26s.xml">
+      <configuration name="TestCases" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1142" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -463,7 +497,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.478125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.478125" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32916668" />
@@ -475,7 +509,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,14 +524,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestCases.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="11" />
     </breakpoint-manager>
   </component>
@@ -561,26 +587,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question1/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#484#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageSelectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="35" />
+        <state relative-caret-position="-3">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
@@ -588,10 +602,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question1/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question3/RandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="e#221#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,7 +648,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -674,7 +709,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
